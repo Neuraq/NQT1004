@@ -3,10 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>NQT1004 Card</title>
+    <!-- Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            background: url('logo-3.jpg') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.662);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.511);
+            text-align: center;
+            color: white;
+            padding: 20px;
+            width: 90%; /* Responsive width */
+            max-width: 350px; /* Max width for larger screens */
+        }
+
+        .card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 2px solid #fff;
+        }
+
+        .card h3 {
+            margin: 10px 0 5px;
+            font-size: 1.5em;
+        }
+
+        .card p {
+            margin: 5px 0;
+            font-size: 0.9em;
+            color: #ffffff;
+        }
+
+        .social-buttons {
+            margin-top: 15px;
+        }
+
+        .social-buttons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            margin: 0 5px;
+            border-radius: 50%;
+            background: #0000008c;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .social-buttons a:hover {
+            background: #555;
+        }
+
+        .social-buttons a i {
+            vertical-align: middle;
+        }
+
+        .card-id {
+            margin-bottom: 15px;
+            font-size: 0.9em;
+            color: #e0e0e0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My GitHub Page!</h1>
-    <p>This is a simple page hosted on GitHub Pages.</p>
+
+    <div class="card">
+        <div class="card-id">ID: NQT1004</div>
+        <img src="member-04.jpg" alt="Profile Picture">
+        <h3>Minhaj</h3>
+        <p>Graphic Designer</p>
+        <p>minhajpoovathikkal@gmail.com </p>
+        <p>+91 9946766341</p>
+
+        <div class="social-buttons">
+            <a href="https://www.instagram.com/pro_phics/profilecard/?igsh=MWJrOG40eHJqaGEzMQ==" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/919946766341" title="Wp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/minhaj-poovathikkal-4114b232b/" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/minhaj_poovathikkal_/profilecard/?igsh=MXZ6Zzh6MTZybWxqOA==" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
 </body>
 </html>
